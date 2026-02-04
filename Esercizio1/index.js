@@ -1,0 +1,11 @@
+const html = document.documentElement;
+const body = html.children[1];
+const ul = body.children[0];
+const padreUl = ul.parentElement;
+console.log(padreUl);
+const liDue = ul.children[1];
+console.log(liDue.innerText);
+const liTre = liDue.nextElementSibling;
+console.log(liTre.innerText);
+const liUno = liDue.previousElementSibling;
+console.log(liUno.innerText);
